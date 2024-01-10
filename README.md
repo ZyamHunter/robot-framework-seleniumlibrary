@@ -60,4 +60,4 @@ Instale a ferramenta `virtualenv` para criar ambientes virtuais de aprendizado:
 <br/>
 
 **Executar teste regressivo**
-> npm run app
+> npm run web

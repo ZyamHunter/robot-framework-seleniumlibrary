@@ -49,6 +49,11 @@ Ao instalar, provavelmente vários pacotes adicionais serão instalados, como ch
 ## Modificar versão padrão do node para a usada no projeto:
 > nvm use
 
+## Instalar chromedriver
+Acesse o site:
+> https://chromedriver.chromium.org/downloads
+Depois de baixar o arquivo, extraia da pasta zip e adicione o caminho do executável do chromedriver a variável PATH
+
 ## Lint do código
 > robotidy src
 

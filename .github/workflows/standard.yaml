@@ -26,9 +26,9 @@ env:
   namespace: "robot-framework"
   value_stream: "robot-selenium"
   BASE_URL: ${{ vars.BASE_URL }}
-  USER_EMAIL: ${{ vars.BASE_URL }}
-  USER_PASSWORD: ${{ vars.BASE_URL }}
-  SLACK_WEBHOOK: ${{ vars.BASE_URL }}
+  USER_EMAIL: ${{ vars.USER_EMAIL }}
+  USER_PASSWORD: ${{ vars.USER_PASSWORD }}
+  SLACK_WEBHOOK: ${{ vars.SLACK_WEBHOOK }}
 
 jobs:
   ci_web:

@@ -64,4 +64,4 @@ jobs:
           mv web-report web
       - name: 📨 Run Curl Message To Slack
         run: |
-          robot ./Helpers/Curl_Slack.robot
+          robot ./src/Helpers/Curl_Slack.robot

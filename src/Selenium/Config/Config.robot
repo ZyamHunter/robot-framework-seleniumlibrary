@@ -9,7 +9,7 @@ Acessar e-commerce
     Set Global Variable    ${ENVS}    ${ENVS}
 
     ${options}    Evaluate    sys.modules['selenium.webdriver'].ChromeOptions()    sys, selenium.webdriver
-    Call Method    ${options}    add_argument    --headless
+    # Call Method    ${options}    add_argument    --headless
     Create Webdriver    Chrome    options=${options}
     Maximize Browser Window
 

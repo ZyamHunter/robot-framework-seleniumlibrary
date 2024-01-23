@@ -16,7 +16,7 @@ def get_test_status(path):
             test_status[test_name] = {'Com sucesso': 0, 'Com falha': 0}
 
         # Iterar sobre as keywords do teste
-        for keyword in test.keywords:
+        for keyword in test.body:
 
             # Verificar o status da keyword
             if keyword.status == 'PASS':

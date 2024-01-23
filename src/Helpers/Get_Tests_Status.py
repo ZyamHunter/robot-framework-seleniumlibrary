@@ -24,7 +24,7 @@ def get_test_status(path):
             else:
                 test_status[test_name]['Com falha'] += 1
 
-    message = 'Resultados dos Testes de API:\n'
+    message = 'Resultados dos Testes:\n'
     for test_name, data in test_status.items():
         message += f'{test_name}:\n'
         message += f' ✅Com sucesso: {data["Com sucesso"]}\n'

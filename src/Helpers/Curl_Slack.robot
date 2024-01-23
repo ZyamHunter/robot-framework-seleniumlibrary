@@ -8,7 +8,7 @@ Library     Collections
 
 *** Tasks ***
 Send Curl to Slack
-    ${report}    Set Variable    Results\\output.xml
+    ${report}    Set Variable    web\\output.xml
     ${path}    Get Absolute Path    ${report}
     ${msg}    Get Test Status    ${path}
     Curl    ${msg}

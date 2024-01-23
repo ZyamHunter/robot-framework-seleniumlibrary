@@ -6,9 +6,9 @@ def get_enviroment_variables():
     load_dotenv()
 
     environment_variables = {
-        'USER': os.getenv('USER'),
-        'PASSWORD': os.getenv('PASSWORD'),
-        'CODE': os.getenv('CODE')
+        'USER_EMAIL': os.getenv('USER_EMAIL'),
+        'USER_PASSWORD': os.getenv('USER_PASSWORD'),
+        'BASE_URL': os.getenv('BASE_URL')
     }
 
     return environment_variables

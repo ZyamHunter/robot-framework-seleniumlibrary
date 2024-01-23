@@ -1,3 +1,2 @@
 *** Variables ***
-${INPUT}        //textarea[@type="search"]
-${BAR_ONE}      //input
+${SEARCH_FIELD}     //*[@id="search_query_top"]

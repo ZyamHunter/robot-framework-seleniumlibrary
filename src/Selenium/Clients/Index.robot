@@ -10,11 +10,11 @@ Test Teardown       Fechar navegador
 
 
 *** Test Cases ***
-Login com sucesso
+Login válido
     [Tags]    login
     CT: Logar com sucesso
 
-Login com erro
+Login inválido
     [Tags]    login
     CT: Login com erro
 

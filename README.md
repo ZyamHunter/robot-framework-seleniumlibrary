@@ -65,7 +65,6 @@ Depois de baixar o arquivo, extraia da pasta zip e adicione o caminho do execut�
 - Selenium
 - Massa de Dados
 - Geração de Report
-- Report dos testes no Slack
 
 <br/>
 

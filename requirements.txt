@@ -1,7 +1,7 @@
 robotframework==6.1.1
 robotframework-faker==5.0.0
 robotframework-tidy==4.8.0
-robotframework-requests==0.9.6
+robotframework-seleniumlibrary==6.2.0
+selenium==4.9
 python-dotenv==1.0.0
-datetime==5.4
 robotframework-screencaplibrary==1.6.0
